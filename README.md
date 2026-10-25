@@ -23,6 +23,7 @@ The data uses a top-level `books` array containing two objects. Strings use doub
 - *To Kill a Mockingbird* — Harper Lee, 1960
 
 **Evidence:** See `ss_books_json.png` and `ss_books_validate.png`.
+
 ![Question 1](ss_books_json.png)
 
 ![Question 1](ss_books_validate.png)
@@ -45,6 +46,7 @@ The program also uses error handling to display a user-friendly message if the r
 - To Kill a Mockingbird — Fiction, Coming-of-Age
 
 **Evidence:** See `ss_books.png`.
+
 ![Question 2](ss_books.png)
 
 ## 4. Question 3: Compare Native JavaScript and jQuery
@@ -56,7 +58,8 @@ The program also uses error handling to display a user-friendly message if the r
 Native JavaScript does not require an external library, while jQuery offers concise methods for DOM manipulation and event handling. Existing projects may continue using jQuery when their code already depends on it.
 
 **Evidence:** See `ss_output.png` and `ss_output_button.png`.
-![Question 1](ss_outout.png)
+
+![Question 1](ss_output.png)
 
 ![Question 1](ss_output_button.png)
 
