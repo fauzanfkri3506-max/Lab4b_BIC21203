@@ -23,6 +23,9 @@ The data uses a top-level `books` array containing two objects. Strings use doub
 - *To Kill a Mockingbird* — Harper Lee, 1960
 
 **Evidence:** See `ss_books_json.png` and `ss_books_validate.png`.
+![Question 1](ss_books_json.png)
+
+![Question 1](ss_books_validate.png)
 
 ## 3. Question 2: Retrieve and Display JSON Data
 
@@ -42,22 +45,20 @@ The program also uses error handling to display a user-friendly message if the r
 - To Kill a Mockingbird — Fiction, Coming-of-Age
 
 **Evidence:** See `ss_books.png`.
+![Question 2](ss_books.png)
 
 ## 4. Question 3: Compare Native JavaScript and jQuery
-
-The `jquery-dom.html` file uses jQuery 4.0.0 to perform three DOM operations:
 
 1. **Change text:** The `.text()` method changes "Original Text" to "Modified Text".
 2. **Add a CSS class:** The `.addClass()` method applies the `myStyle` class to `#myDIV`, giving it a coral background and 16-pixel padding.
 3. **Handle a button click:** The `.on("click", ...)` method displays an alert containing "Button clicked!".
 
-The jQuery library is loaded using the official CDN:
-
-https://code.jquery.com/jquery-4.0.0.min.js
-
 Native JavaScript does not require an external library, while jQuery offers concise methods for DOM manipulation and event handling. Existing projects may continue using jQuery when their code already depends on it.
 
 **Evidence:** See `ss_output.png` and `ss_output_button.png`.
+![Question 1](ss_outout.png)
+
+![Question 1](ss_output_button.png)
 
 ## 5. How to Run the Project
 
