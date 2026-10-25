@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript and jQuery</title>
+
+    <style>
+        .myStyle {
+            background-color: coral;
+            padding: 16px;
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+</head>
+<body>
+
+    <h1>Native JavaScript and jQuery</h1>
+
+    <h2>Operation A: Change Text</h2>
+    <div id="myElement">Original Text</div>
+
+    <h2>Operation B: Add CSS Class</h2>
+    <div id="myDIV">
+        <p>I am a myDIV.</p>
+    </div>
+
+    <h2>Operation C: Button Click</h2>
+    <button id="myButton" type="button">Click me</button>
+
+    <script>
+        $(document).ready(function() {
+
+            // (a) Change the text
+            $("#myElement").text("Modified Text");
+
+            // (b) Add the CSS class
+            $("#myDIV").addClass("myStyle");
+
+            // (c) Handle the button click
+            $("#myButton").on("click", function() {
+                alert("Button clicked!");
+            });
+
+        });
+    </script>
+
+</body>
+</html>
